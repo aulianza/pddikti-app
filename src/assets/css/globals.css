@@ -1,0 +1,111 @@
+@font-face {
+	font-family: "Gotham Rounded";
+	src: url("/fonts/GothamRounded/GothamRounded-MediumItalic.woff2")
+			format("woff2"),
+		url("/fonts/GothamRounded/GothamRounded-MediumItalic.woff") format("woff");
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gotham Rounded";
+	src: url("/fonts/GothamRounded/GothamRounded-LightItalic.woff2")
+			format("woff2"),
+		url("/fonts/GothamRounded/GothamRounded-LightItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gotham Rounded";
+	src: url("/fonts/GothamRounded/GothamRounded-Medium.woff2") format("woff2"),
+		url("/fonts/GothamRounded/GothamRounded-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gotham Rounded Book";
+	src: url("/fonts/GothamRounded/GothamRounded-Book.woff2") format("woff2"),
+		url("/fonts/GothamRounded/GothamRounded-Book.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gotham Rounded";
+	src: url("/fonts/GothamRounded/GothamRounded-Light.woff2") format("woff2"),
+		url("/fonts/GothamRounded/GothamRounded-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gotham Rounded Book";
+	src: url("/fonts/GothamRounded/GothamRounded-BookItalic.woff2")
+			format("woff2"),
+		url("/fonts/GothamRounded/GothamRounded-BookItalic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gotham Rounded";
+	src: url("/fonts/GothamRounded/GothamRounded-BoldItalic.woff2")
+			format("woff2"),
+		url("/fonts/GothamRounded/GothamRounded-BoldItalic.woff") format("woff");
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gotham Rounded";
+	src: url("/fonts/GothamRounded/GothamRounded-Bold.woff2") format("woff2"),
+		url("/fonts/GothamRounded/GothamRounded-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+* {
+	-webkit-font-smoothing: antialiased;
+	font-family: "Gotham Rounded" !important;
+	letter-spacing: -0.03rem;
+}
+
+html {
+	scroll-behavior: smooth;
+	letter-spacing: 0.3px;
+}
+
+a {
+	color: rgb(31 41 55) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+button,
+span,
+div {
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#__next {
+	border-top-right-radius: 1.2rem !important;
+	border-top-left-radius: 1.2rem !important;
+}
